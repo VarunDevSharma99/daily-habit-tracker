@@ -51,7 +51,7 @@ export default function Login() {
         minHeight: '100vh', display: 'flex', flexDirection: 'column',
         alignItems: 'center', justifyContent: 'center', padding: 24,
       }}>
-        <div style={{ fontSize: 32, marginBottom: 8 }}>\ud83c\udfaf</div>
+        <div style={{ fontSize: 32, marginBottom: 8 }}>🎯</div>
         <h1 style={{ fontSize: 20, fontWeight: 700, marginBottom: 4 }}>Life Score</h1>
         <p style={{ color: '#94a3b8', fontSize: 14, marginBottom: 32 }}>Enter your PIN</p>
         <div style={{ display: 'flex', gap: 16, marginBottom: 32 }}>
@@ -75,7 +75,7 @@ export default function Login() {
                   padding: 16, borderRadius: 12, border: 'none',
                   background: 'transparent', color: '#94a3b8', fontSize: 16,
                   cursor: 'pointer', fontWeight: 600,
-                }}>\u2190</button>
+                }}>←</button>
               );
             }
             return (
